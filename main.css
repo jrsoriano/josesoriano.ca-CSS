@@ -1,0 +1,112 @@
+/* general styles */
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+/* additional sections */
+#home {
+    background: url(../img/pexels-photo-4494162.jpg) no-repeat center center fixed;
+    display: table;
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px black, 2px 2px 5px yellow;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* padded section */
+.pad-section {
+    padding: 50px 0;
+}
+.pad-section img {
+    width: 100%;
+}
+
+
+/* vertical-centered text */
+.text-vcenter {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.text-vcenter h1 {
+    font-size: 4.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*about*/
+#about {
+    background-color: black;
+    color: whitesmoke;
+}
+
+/*skills*/
+#skills {
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+/*information*/
+#information {
+    background: url(../img/pexels-photo-3739742.jpg) no-repeat center center fixed;
+    display: table;
+    height: 800px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#information .panel {
+    opacity: 0.85;
+}
+#tech{
+    font-size: larger;
+    color: midnightblue;
+    font-weight: bold;
+}
+#edu{
+    font-size: larger;
+    color: midnightblue;
+    font-weight: bold;
+}
+#examples{
+    color: crimson;
+}
+#resume{
+    color: crimson;
+}
+
+
+
+/*contact*/
+#contact_form{
+    background-color: black;
+    color: whitesmoke;
+}
+#contact{
+    background-color: black;
+    color: whitesmoke;
+}
+#success_message{
+    display: none;
+}
+
+
+/*footer*/
+#footer{
+    background-color: black;
+}
+
